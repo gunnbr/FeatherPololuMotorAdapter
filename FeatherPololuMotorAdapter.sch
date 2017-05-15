@@ -1,0 +1,155 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Feather Motor Shield to Pololu Motor Adapter"
+Date ""
+Rev "1"
+Comp "Schminktronics"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X06 P?
+U 1 1 5917E42D
+P 1550 2100
+F 0 "P?" H 1550 2450 50  0000 C CNN
+F 1 "CONN_01X06" V 1650 2100 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_1x06_Pitch2.54mm" H 1550 2100 50  0000 C CNN
+F 3 "" H 1550 2100 50  0000 C CNN
+	1    1550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 5917E449
+P 2200 2100
+F 0 "P?" H 2200 2450 50  0000 C CNN
+F 1 "CONN_01X06" V 2300 2100 50  0000 C CNN
+F 2 "" H 2200 2100 50  0000 C CNN
+F 3 "" H 2200 2100 50  0000 C CNN
+	1    2200 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 5917E46F
+P 2850 2100
+F 0 "P?" H 2850 2450 50  0000 C CNN
+F 1 "CONN_01X06" V 2950 2100 50  0000 C CNN
+F 2 "" H 2850 2100 50  0000 C CNN
+F 3 "" H 2850 2100 50  0000 C CNN
+	1    2850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X06 P?
+U 1 1 5917E498
+P 3500 2100
+F 0 "P?" H 3500 2450 50  0000 C CNN
+F 1 "CONN_01X06" V 3600 2100 50  0000 C CNN
+F 2 "" H 3500 2100 50  0000 C CNN
+F 3 "" H 3500 2100 50  0000 C CNN
+	1    3500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_SMALL_H SW?
+U 1 1 5917E5DB
+P 1950 1050
+F 0 "SW?" H 2030 1160 50  0000 C CNN
+F 1 "RESET" H 1950 1000 50  0000 C CNN
+F 2 "" H 1950 1250 50  0000 C CNN
+F 3 "" H 1950 1250 50  0000 C CNN
+	1    1950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5917E66A
+P 1550 2950
+F 0 "P?" H 1550 3100 50  0000 C CNN
+F 1 "CONN_01X02" V 1650 2950 50  0000 C CNN
+F 2 "" H 1550 2950 50  0000 C CNN
+F 3 "" H 1550 2950 50  0000 C CNN
+	1    1550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5917E755
+P 2200 2950
+F 0 "P?" H 2200 3100 50  0000 C CNN
+F 1 "CONN_01X02" V 2300 2950 50  0000 C CNN
+F 2 "" H 2200 2950 50  0000 C CNN
+F 3 "" H 2200 2950 50  0000 C CNN
+	1    2200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5917E7A9
+P 2850 2950
+F 0 "P?" H 2850 3100 50  0000 C CNN
+F 1 "CONN_01X02" V 2950 2950 50  0000 C CNN
+F 2 "" H 2850 2950 50  0000 C CNN
+F 3 "" H 2850 2950 50  0000 C CNN
+	1    2850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5917E7DD
+P 3500 2950
+F 0 "P?" H 3500 3100 50  0000 C CNN
+F 1 "CONN_01X02" V 3600 2950 50  0000 C CNN
+F 2 "" H 3500 2950 50  0000 C CNN
+F 3 "" H 3500 2950 50  0000 C CNN
+	1    3500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P?
+U 1 1 5917ED13
+P 3950 1050
+F 0 "P?" H 3950 1200 50  0000 C CNN
+F 1 "PWR_IN" V 4050 1050 50  0000 C CNN
+F 2 "" H 3950 1050 50  0000 C CNN
+F 3 "" H 3950 1050 50  0000 C CNN
+	1    3950 1050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
